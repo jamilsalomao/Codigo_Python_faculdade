@@ -50,8 +50,6 @@ def imprimir_detalhes_estoque(produtos):
             print(f"Garantia: {produto.garantia} anos")
         print("-----------------------------------")
 
-
-# Exemplo de uso
 eletronicos = [
     Eletronico("Monitor", 900, 10, 2),
     Eletronico("Notebook", 3500, 5, 3)

@@ -1,4 +1,4 @@
-#Assim como no exercício 5 que eu tive duvidas para classe abstrata, eu utilizei da internet para me auxiliar no código
+#Assim como no exercício 5 que eu tive dúvidas para classe abstrata, eu utilizei da internet para me auxiliar no código
 from abc import ABC, abstractmethod
 
 class Produto:
@@ -49,8 +49,6 @@ class VendaServico(Venda):
         print(f"Valor por hora: R${self.valor_hora:.2f}")
         print(f"Total: R${self.calcular_total():.2f}")
 
-
-# Exemplos de uso
 produto1 = Produto("Geladeira Electrolux", "Modelo mais recente")
 venda_produto = VendaProduto(produto1, 2, 4000)
 

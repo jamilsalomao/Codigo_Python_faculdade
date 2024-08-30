@@ -36,15 +36,12 @@ class ReservaVoo(Reserva):
         print(f"Classe: {self.classe}")
 
     def calcular_custo(self, preco_por_classe):
-        # Aqui você pode implementar uma lógica mais complexa para calcular o preço
-        # baseado na classe do voo (econômica, executiva, primeira classe)
+        
         return preco_por_classe
 
-# Exemplo de uso
 reserva_hotel = ReservaHotel("HL123", "21-12-2024", "12:00", "Hotel Barra", 5)
 reserva_voo = ReservaVoo("RV454", "21-12-2024", "8:00", "GO123", "Executiva")
 
-# Exibindo detalhes e calculando custos (valores fictícios)
 reserva_hotel.exibir_detalhes()
 custo_hotel = reserva_hotel.calcular_custo(150)
 print(f"Custo total do hotel: R${custo_hotel}")
