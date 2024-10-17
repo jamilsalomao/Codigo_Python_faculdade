@@ -9,7 +9,7 @@ class Jogo:
 
 jogo1: Jogo = Jogo("God of War", "Ação", "PS4")
 jogo2: Jogo = Jogo("Skyrim", "RPG", "PS4")
-jogo3: Jogo = Jogo("Fifa 21", "Esportes", "PS4")
+jogo3: Jogo = Jogo("Fifa 23", "Esportes", "PS4")
     
 lista = [jogo1, jogo2, jogo3]
 
